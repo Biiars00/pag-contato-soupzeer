@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta cherset="UTF-8">
+        <title>Sopa doZe | Contato</title>
+        <link rel="stylesheet" href="reset.css"> 
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="logosz.png" id="logo" alt="Logo da soparia Soup Zeer"></h1>
+    
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="sopa1.htmal">CARDÁPIO</a></li>
+                        <li><a href="sopa2.htmal">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nomeSobrenome">NOME:</label>
+                <input type="text" id="nomeSobrenome" class="input-padrao" required>
+
+                <label for="email">E-MAIL:</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@email.com">
+
+                <label for="telefone">TELEFONE:</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">MENSAGEM:</label>
+                <textarea cols="68" rows="10" id="mensagem" class="input-padrao" required>
+                </textarea>
+
+                <fieldset>
+                    <legend>Prefere receber o nosso contato por:</legend><br>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label> 
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label> 
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>  
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual o melhor horário para contato?</legend><br>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades e promoções por e-mail?</label>
+                
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+            <section class="mapa">
+                <h3 class="tituloPrincipal">NOSSO ESTABELECIMENTO</h3>
+                <p>No melhor da Zona Norte</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.8392343036076!2d-34.88356099999999!3d-8.015508999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1815e5ba0097%3A0xd723d9a520bfd8bd!2sR.%20das%20Mo%C3%A7as%2C%201824%20-%20Campina%20do%20Barreto%2C%20Recife%20-%20PE%2C%2052121-070!5e0!3m2!1spt-BR!2sbr!4v1660870890186!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            </section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>DIA</th>
+                        <th>HORÁRIO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SEGUNDA a SEXTA</td>
+                        <td>18:00 às 22:00</td>
+                    </tr>
+                    <tr>
+                        <td>SÁBADO</td>
+                        <td>19:00 às 23:00</td>
+                    </tr>
+                    <tr>
+                        <td>DOMINGO</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <img src="logosz.png" alt="Logo da soparia Soup Zeer">
+            <p>Copyright Soup Zeer - 2022</p>
+        </footer>
+    </body>
+</html>

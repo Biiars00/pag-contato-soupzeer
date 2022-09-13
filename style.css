@@ -1,0 +1,143 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: rgb(250, 237, 53);
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+.caixa {
+    position: relative;
+    width: 990px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+    padding: 0em;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    position: relative;
+    float: 5cm;
+    margin: 10px; 
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+    transform: 1.1;
+    transition: all 0.5s;
+}
+
+body {
+    background:darkkhaki;
+    margin-left: -4px;
+    margin-right: -6px;
+}
+
+footer {
+    background: url(bg.png);
+    color: black;
+    text-align: center;
+    padding: 40px 0;
+    background-color: rgb(121, 121, 8);
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-color: black;
+    border-radius: 4px;
+}
+
+textarea {
+    border-color: black;
+    border-radius: 4px;
+}
+
+.checkbox {
+    margin: 20px 0; 
+}
+
+fieldset {
+    padding: 10px 25px;
+    width: 50%;
+    border-color: black;
+    font-size: 20px;
+    margin: 0 0 20px;
+    border-radius: 4px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(250, 237, 53);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    transition: 1s all;
+    cursor: pointer;  
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: rotate(2deg) scale(1.1);
+}
+
+.mapa {
+    text-align: center;
+    
+}
+
+table {
+    margin: 50px 0 40px;
+    font-size: 20px;
+    align-items: center;
+}
+
+thead {
+    background: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+
+
